@@ -9,7 +9,7 @@ public class ArrayAssignment {
         }
 
         // 2. String array using foreach loop
-        String[] names = {"John", "Alice", "Bob", "Emma"};
+        String[] names = {"uday", "bhargav", "divya", "Anu"};
         System.out.println("\nString array:");
         for (String name : names) {
             System.out.println(name);
