@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 4px;
+    margin-inline: auto;
+    position: fixed;
+    background-color: white;
+    padding-inline: -200px;
+    top: 0px;
+}
+
+
+.logo{
+    font-size: 25px;
+    font-variant: small-caps;
+    font-weight: 100;
+
+}
+.nav-items{
+    font-size: 22px;
+    
+}
+hr{
+    box-shadow: 1px 1px 1px gray;
+    margin-block: 20px;
+}
+
+.hero-img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+.hero-text span{
+position: relative;
+bottom: 140px;
+letter-spacing: 10px;
+font-weight: 400;
+font-size: 40px;
+margin-left: 20px; 
+}
+
+
+
+.catering{
+    margin-top: 80px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-inline: auto;
+    gap: 20px;
+}
+.c-img img{
+
+    width: 85%;
+}
+.c-text p{
+    line-height: 30px;
+}
+.c-text span{
+    line-height: 25px;
+    opacity: 60%;
+
+}

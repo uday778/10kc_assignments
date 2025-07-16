@@ -1,0 +1,10 @@
+.container{
+    height: 600px;
+    
+    border: 2px solid black;
+}
+.child-1e[{
+
+    display: flex;
+    justify-content: space-between;
+}

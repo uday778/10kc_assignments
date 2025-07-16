@@ -1,0 +1,55 @@
+
+
+.container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    gap: 10px;
+}
+.child{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+.child-1{
+    animation-name: child1;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    background-color: blue;
+}
+.child-2{
+    animation-name: child2;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    background-color: red;
+}
+
+.child-3{
+    animation-name: child3;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    background-color: yellow;
+}
+
+.child-4{
+    animation-name: child4;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    background-color: green;
+}
+@keyframes child1 {
+    from{
+        transform: translate(0px);
+    }
+    to{
+        transform: translateY(100px);
+    }
+    
+}
+
+
+

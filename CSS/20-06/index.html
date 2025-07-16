@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .container{
+            display: grid;
+            height: 100vh;
+            gap: 0.5rem;
+            grid-template-columns: repeat(autofil, minmax(200px,1fr));
+            /* grid-template-rows: repeat(2,1fr); */
+            /* justify-content: center; */
+            align-items: center;
+
+        }
+        .item{
+            padding: 1.5rem;
+            background-color: black;
+            color: white;
+        }
+        .a{
+            align-self: start;
+            justify-self: start;
+        }
+        .b{
+            align-self: center;
+            justify-self: center;
+        }
+        .c{
+            align-self: end;
+            justify-self: end;
+        }
+        .d{
+            align-self: start;
+            justify-self: end;
+        }
+        .e{
+            align-self: end;
+            justify-self: start;
+        }
+        .f{
+            align-self: start;
+            justify-self: center;
+        }
+        .g{
+            align-self: end;
+            justify-self: center;
+        }
+        .h{
+            align-self: end;
+            justify-self: start;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class=" a item">A</div>
+        <div class=" b item">B</div>
+        <div class=" c item">C</div>
+        <div class="d item">D </div>
+        <div class=" e item">E </div>
+        <div class=" f item"> F </div>
+        <div class="g item">G </div>
+        <div class=" h item">H</div>
+    </div>
+</body>
+</html>
